@@ -312,14 +312,17 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleScoreModel\ScoreModelImplementation.csproj">
-      <Project>{9c84da09-f1b7-42e5-9bad-b07fb6574595}</Project>
-      <Name>ScoreModelImplementation</Name>
+    <ProjectReference Include="..\ScoreModelImplement\ScoreModelImplement.csproj">
+      <Project>{d767658a-a18b-4403-9f12-6a956ccf581f}</Project>
+      <Name>ScoreModelImplement</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

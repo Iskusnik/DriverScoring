@@ -20,7 +20,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DriverScoring\DriverScoring.csproj" />
-    <ProjectReference Include="..\SimpleScoreModel\ScoreModelImplementation.csproj" />
+    <ProjectReference Include="..\ScoreModelImplement\ScoreModelImplement.csproj" />
   </ItemGroup>
+
 
 </Project>
