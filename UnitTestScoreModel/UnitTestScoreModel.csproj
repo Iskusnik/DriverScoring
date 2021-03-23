@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -19,8 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SimpleScoreModel\ScoreModelImplementation.csproj" />
-    <ProjectReference Include="..\DriverScoring\DriverScoring.csproj" />
+    <ProjectReference Include="..\SimpleScoreModel\ScoreModelImplementation.csproj" />
   </ItemGroup>
 
 </Project>
